@@ -1,0 +1,71 @@
+@font-face {
+   font-family: "Lulo";
+    src: url("Lulo Clean W01 One.ttf");
+}
+
+:root {
+    --bg: #FFFFFF;
+    --bg-light: #dd5eac;
+    --font: #422E39;
+    --accent: #043D5D;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: var(--bg);
+    color: var(--font);
+    font-family: "Lulo", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.center {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 3em;
+
+    
+    margin: auto;
+    
+    
+border-bottom: 3px solid var(--accent);
+}
+
+.container {
+    position: absolute;
+    top: 0px; left: 0px; bottom: 0px; right: 0px;
+    margin: auto;
+    height: 100px;
+    width: 550px;
+    padding: 20px;
+    background: var(--bg-light);
+    border-left: 3px solid var(--accent);
+border-right: 3px solid var(--accent);
+border-top: 3px solid var(--accent);
+border-bottom: 3px solid var(--accent);
+}
+
+.container > div {
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+.bot {
+    margin-top: 100px;
+    text-align: right;
+    font-size: 3em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:before {
+    content: ">";
+    color: var(--accent);
+}
